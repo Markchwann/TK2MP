@@ -93,8 +93,8 @@ class _LoginPageState extends State<LoginPage> {
             ElevatedButton(
               onPressed: () {
                 // Check login credentials
-                if (_userController.text == 'binus' &&
-                    _passwordController.text == 'maya') {
+                if (_userController.text == 'pengguna' &&
+                    _passwordController.text == 'masuk') {
                   Navigator.pushReplacement(
                     context,
                     MaterialPageRoute(
